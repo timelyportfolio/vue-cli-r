@@ -1,6 +1,6 @@
 # vue-cli-r
 
-Quick example illustrating how we can combine `Shiny` and a `vue-cli` project.  As an added bonus, we also supply `leaflet htmlwidget` with a `Vue` component that wraps an `htmlwidget` from `R`.
+Quick example illustrating how we can combine `Shiny` and a `vue-cli` project complete with `Vuetify` and `vue-router`.  As an added bonus, we also supply `leaflet htmlwidget` with a `Vue` component that wraps an `htmlwidget` from `R`.
 
 To see it working, clone the repo and `runApp` as you would with a typical Shiny application.
 
