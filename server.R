@@ -2,9 +2,9 @@ library(shiny)
 library(leaflet)
 
 # add resources from dist direction which contains vue-cli build files
-shiny::addResourcePath("js",file.path(here::here(),"vue-cli-r","dist","js"))
-shiny::addResourcePath("css",file.path(here::here(),"vue-cli-r","dist","css"))
-shiny::addResourcePath("img",file.path(here::here(),"vue-cli-r","dist","img"))
+shiny::addResourcePath("js",file.path(here::here(),"dist","js"))
+shiny::addResourcePath("css",file.path(here::here(),"dist","css"))
+shiny::addResourcePath("img",file.path(here::here(),"dist","img"))
 
 function(input, output, session) {
   ###  leaflet widget example
