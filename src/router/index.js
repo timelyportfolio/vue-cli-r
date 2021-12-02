@@ -11,12 +11,14 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
+    path: '/widget',
+    name: 'LeafletWidget',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+
+    // this is a harder test to pass with lazy load so keep it this way to show it works
+    component: () => import(/* webpackChunkName: "widget" */ '../views/LeafletWidget.vue'),
   }
 ]
 

@@ -39,7 +39,7 @@
 
     <v-main>
       <v-btn to="/">Home</v-btn>
-      <v-btn to="/about">About</v-btn>
+      <v-btn to="/widget">LeafletWidget</v-btn>
       <router-view/>
     </v-main>
   </v-app>

@@ -11,5 +11,10 @@
     components: {
       HelloWorld,
     },
+    // beforeUnmount is not called with vue-router so use router navigation guards
+    beforeRouteLeave: function(to, from, next) {
+      window.Shiny.unbindAll(this.$el);
+      next();
+    },
   }
 </script>
